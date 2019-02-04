@@ -1,11 +1,31 @@
 .logo{
     height: 3.25rem;
+    margin-left: 3rem;
 }
 
 .search{
     background-color: blue;
-    &__input{
+    flex: 0 0 40%;
 
+    &__input{
+        // input does not inherit the global font by default
+        font-family: inherit;
+        font-size: inherit;
+        color: inherit;
+        background-color: var(--color-grey-light-2);
+        border: none;
+        padding: .7rem 2rem;
+        border-radius: 100px;
+        width: 90%;
+        // add animation
+        transition: all .3s;
+
+        // expand the search bar when click
+        &:focus{
+            outline: none;
+            width: 100%;
+            background-color: var(--color-grey-light-3);
+        }
     }
 
     &__button{
@@ -20,7 +40,7 @@
 
 .user-nav{
     background-color: green;
-    
+
     &__icon-box{
 
     }
