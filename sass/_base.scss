@@ -1,6 +1,7 @@
 // this is global variables
 // css variables not need pre-processor
 :root{
+    // color
     --color-primary: #FFA500;
     --color-primary-light: #F0E68C;
     --color-primary-dark: #B8860B;
@@ -13,6 +14,9 @@
     --color-grey-dark-1: #333;
     --color-grey-dark-2: #777;
     --color-grey-dark-3: #999;
+
+    // box-shadow
+    --shadow-dark: 0 2rem 6em rgba(0, 0, 0, .3);
     }
 
 *{
