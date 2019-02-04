@@ -7,6 +7,14 @@
     background-color: blue;
     flex: 0 0 40%;
 
+    // nested flexbox
+    // center the search icon vertically
+    display: flex;
+    // center the search icon in cross axis
+    align-items: center;
+    // center the search icon in main axis
+    justify-content: center;
+
     &__input{
         // input does not inherit the global font by default
         font-family: inherit;
@@ -19,6 +27,8 @@
         width: 90%;
         // add animation
         transition: all .3s;
+        // make the button move on top of the input
+        margin-right: -3.25rem;
 
         // expand the search bar when click
         &:focus{
@@ -27,9 +37,22 @@
             background-color: var(--color-grey-light-3);
         }
     }
+    // + is adjacent selector
+    &__input:focus + &__button{
+        background-color: var(--color-grey-light-3);
+    }
 
     &__button{
+        border: none;
+        background-color: var(--color-grey-light-3);
 
+        &:focus{
+            outline: none;
+        }
+
+        &:active{
+            transform: translateY(2px);
+        }
     }
 
     &__icon{
