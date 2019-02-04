@@ -15,13 +15,23 @@
 }
 
 .content{
-
+    // display the sidebar and cafe-view side by side
+    display: flex;
 }
 
 .sidebar{
     background-color: var(--color-grey-dark-1);
+
+    // first number is to make it big
+    // second number is to make it small
+    // third number is how much it take up space
+    flex: 0 0 18%;
 }
 
 .cafe-view{
     background-color: white;
+    background: red;
+
+    // This will make the cafe-view as big as possible
+    flex: 1;
 }
