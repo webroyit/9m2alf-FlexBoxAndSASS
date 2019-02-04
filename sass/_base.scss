@@ -1,3 +1,20 @@
+// this is global variables
+// css variables not need pre-processor
+:root{
+    --color-primary: #FFA500;
+    --color-primary-light: #F0E68C;
+    --color-primary-dark: #B8860B;
+
+    --color-grey-light-1: #faf9f9;
+    --color-grey-light-2: #f4f2f2;
+    --color-grey-light-3: #f0eeee;
+    --color-grey-light-4: #ccc;
+
+    --color-grey-dark-1: #333;
+    --color-grey-dark-2: #777;
+    --color-grey-dark-3: #999;
+    }
+
 *{
     margin: 0;
     padding: 0;
@@ -18,4 +35,10 @@ body{
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     line-height: 1.6;
+    background-image: linear-gradient(to right bottom, var(--color-primary-light), var(--color-primary-dark));
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: var(--color-grey-dark-2);
+
+    min-height: 100vh;
 }
