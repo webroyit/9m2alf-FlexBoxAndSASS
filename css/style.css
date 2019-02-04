@@ -32,3 +32,10 @@ body {
   background-repeat: no-repeat;
   color: var(--color-grey-dark-2);
   min-height: 100vh; }
+
+.container {
+  max-width: 120rem;
+  margin: 8rem auto;
+  background-color: var(--color-grey-light-2);
+  box-shadow: 0 2rem 6em rgba(0, 0, 0, 0.3);
+  min-height: 50rem; }
