@@ -12,6 +12,12 @@
     height: 7rem;
     background-color: white;
     border-bottom: var(--color-grey-light-2);
+
+    display: flex;
+    // add equal space between each flex item
+    justify-content: space-between;
+    // center the flex item vertically
+    align-items: center;
 }
 
 .content{
