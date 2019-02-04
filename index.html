@@ -13,7 +13,16 @@
     <body>
         <div class="container">
             <header class="header">
-                Header
+                <img src="" alt="Logo" class="logo">
+                <form action="#" class="search">
+                    <input type="text" class="search__input" placeholder="Search...">
+                    <button class="search__button">
+                        <svg class="search__icon">
+                            <!-- This only works on the web server -->
+                            <use xlink:href="img/sprite.svg#icon-search"></use>
+                        </svg>
+                    </button>
+                </form>
             </header>
             <div class="content">
                 <nav class="sidebar">
