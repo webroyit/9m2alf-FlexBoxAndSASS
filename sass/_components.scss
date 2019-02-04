@@ -4,7 +4,6 @@
 }
 
 .search{
-    background-color: blue;
     flex: 0 0 40%;
 
     // nested flexbox
@@ -36,6 +35,11 @@
             width: 100%;
             background-color: var(--color-grey-light-3);
         }
+
+        &::-webkit-input-placeholder{
+            font-weight: 100;
+            color: var(--color-grey-light-4);
+        }
     }
     // + is adjacent selector
     &__input:focus + &__button{
@@ -58,6 +62,8 @@
     &__icon{
         height: 2rem;
         width: 2rem;
+        // change the color of the icon
+        fill: var(--color-grey-dark-3);
     }
 }
 
