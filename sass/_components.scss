@@ -1,6 +1,6 @@
 .logo{
     height: 3.25rem;
-    margin-left: 3rem;
+    margin-left: 2rem;
 }
 
 .search{
@@ -110,18 +110,16 @@
         position: absolute;
         top: 1.5rem;
         right: 1.1rem;
-    }
 
-    &__user{
-
+        // center the number
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     &__user-photo{
         height: 3.75rem;
         border-radius: 50%;
-    }
-
-    &__user-name{
-
+        margin-right: 1rem;
     }
 }
