@@ -80,6 +80,10 @@
         padding: 0 2rem;
         cursor: pointer;
         height: 100%;
+
+        // display the icons vertically center
+        display: flex;
+        align-items: center;
     }
 
     & > * :hover{
@@ -87,16 +91,23 @@
     }
 
     &__icon-box{
-
+        
     }
 
     &__icon{
         height: 2.25rem;
         width: 2.25rem;
+        // change the color of
+        fill: var(--color-grey-dark-2);
     }
 
     &__notification{
-
+        font-size:  .8rem;
+        height: 1.75rem;
+        width: 1.75rem;
+        border-radius: 50%;
+        background-color: var(--color-primary);
+        color: white;
     }
 
     &__user{
