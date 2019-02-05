@@ -69,6 +69,22 @@
 
 .user-nav{
     background-color: green;
+    // expand the two icon and image vertically
+    align-self: stretch;
+    
+    display: flex;
+    align-items: center;
+
+    // select the two icons and the image
+    & > * {
+        padding: 0 2rem;
+        cursor: pointer;
+        height: 100%;
+    }
+
+    & > * :hover{
+        background-color: var(--color-grey-light-2);
+    }
 
     &__icon-box{
 
