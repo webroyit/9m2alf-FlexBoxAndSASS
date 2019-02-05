@@ -68,7 +68,6 @@
 }
 
 .user-nav{
-    background-color: green;
     // expand the two icon and image vertically
     align-self: stretch;
     
@@ -86,12 +85,12 @@
         align-items: center;
     }
 
-    & > * :hover{
+    & > *:hover{
         background-color: var(--color-grey-light-2);
     }
 
     &__icon-box{
-        
+        position: relative;
     }
 
     &__icon{
@@ -108,6 +107,9 @@
         border-radius: 50%;
         background-color: var(--color-primary);
         color: white;
+        position: absolute;
+        top: 1.5rem;
+        right: 1.1rem;
     }
 
     &__user{

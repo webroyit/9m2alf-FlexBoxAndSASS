@@ -104,7 +104,6 @@ body {
     fill: var(--color-grey-dark-3); }
 
 .user-nav {
-  background-color: green;
   align-self: stretch;
   display: flex;
   align-items: center; }
@@ -114,8 +113,10 @@ body {
     height: 100%;
     display: flex;
     align-items: center; }
-  .user-nav > * :hover {
+  .user-nav > *:hover {
     background-color: var(--color-grey-light-2); }
+  .user-nav__icon-box {
+    position: relative; }
   .user-nav__icon {
     height: 2.25rem;
     width: 2.25rem;
@@ -126,7 +127,10 @@ body {
     width: 1.75rem;
     border-radius: 50%;
     background-color: var(--color-primary);
-    color: white; }
+    color: white;
+    position: absolute;
+    top: 1.5rem;
+    right: 1.1rem; }
   .user-nav__user-photo {
     height: 3.75rem;
     border-radius: 50%; }
