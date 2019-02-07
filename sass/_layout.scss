@@ -33,11 +33,20 @@
     // second number is to make it small
     // third number is how much it take up space
     flex: 0 0 18%;
+
+    display: flex;
+    // change the direction to apply justify-content from top to bottom
+    flex-direction: column;
+    // add space between the nav list and legal text horizontally
+    justify-content: space-between;
 }
 
 .cafe-view{
     background-color: white;
+    
+    // for testing
     background: red;
+    height: 80rem;
 
     // This will make the cafe-view as big as possible
     flex: 1;
