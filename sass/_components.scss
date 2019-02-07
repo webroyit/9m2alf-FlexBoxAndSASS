@@ -130,7 +130,33 @@
     margin-top: 3.5rem;
 
     &__item{
+        position: relative;
 
+        // apply styles to all items expect the last item
+        &:not(:last-child){
+            margin-bottom: .5rem;
+        }
+    }
+
+    &__item::before{
+        // to show it on the browser
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 3px;
+        background-color: var(--color-primary);
+        // hide the hover effect color
+        transform: scaleY(0);
+        // width .4s .2s delay the animation
+        transition: transform .2s, width .4s .2s;
+    }
+
+    &__item:hover::before{
+        // show the hover effect color
+        transform: scaleY(1);
+        width: 100%;
     }
 
     &__link:link,
