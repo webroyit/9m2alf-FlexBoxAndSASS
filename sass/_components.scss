@@ -167,6 +167,9 @@
         text-transform: uppercase;
         display: block;
         padding: 1.5rem 3rem;
+        position: relative;
+        // position need to be define to use z-index
+        z-index: 7;
 
         display: flex;
         align-items: center;
