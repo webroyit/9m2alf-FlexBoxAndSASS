@@ -196,3 +196,14 @@
     text-align: center;
     padding: 2.5rem;
 }
+
+.gallery{
+    // display the cafe images side by side
+    display: flex;
+
+    &__photo{
+        width: 100%;
+        // remove the small space below the image
+        display: block;
+    }
+}
