@@ -226,6 +226,8 @@
     &__stars{
         // occupied space that the item takes
         margin-right: auto;
+        // to center the stars horizontally and remove white space
+        display: flex;
     }
 
     &__icon-star,
@@ -249,5 +251,22 @@
 
     &__rating-count{
 
+    }
+}
+
+.btn-inline{
+    border: none;
+    color: var(--color-primary);
+    font-size: inherit;
+    // match the color with the text
+    border-bottom: 1px solid currentColor;
+    padding-bottom: 2px;
+    display: inline-block;
+    background-color: transparent;
+    cursor: pointer;
+    transition: all .2s;
+
+    &:hover{
+        color: var(--color-grey-dark-1);
     }
 }
