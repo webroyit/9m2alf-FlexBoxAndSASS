@@ -150,7 +150,7 @@
         // hide the hover effect color
         transform: scaleY(0);
         // width .4s .2s delay the animation
-        transition: transform .2s, width .4s .2s;
+        transition: transform .2s, width .4s cubic-bezier(.29,1.84,.43,-0.71) .2s;
     }
 
     &__item:hover::before{
