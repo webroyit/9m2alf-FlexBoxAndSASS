@@ -209,13 +209,17 @@
 }
 
 .overview{
+    // display them side by side
+    display: flex;
+
 
     &__heading{
 
     }
 
     &__stars{
-
+        // occupied space that the item takes
+        margin-right: auto;
     }
 
     &__icon-star,
@@ -226,7 +230,7 @@
     }
 
     &__location{
-
+        margin-left: auto;
     }
 
     &__rating{

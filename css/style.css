@@ -193,7 +193,13 @@ body {
     width: 100%;
     display: block; }
 
-.overview__icon-star, .overview__icon-location {
-  width: 1.75rem;
-  height: 1.75rem;
-  fill: var(--color-primary); }
+.overview {
+  display: flex; }
+  .overview__stars {
+    margin-right: auto; }
+  .overview__icon-star, .overview__icon-location {
+    width: 1.75rem;
+    height: 1.75rem;
+    fill: var(--color-primary); }
+  .overview__location {
+    margin-left: auto; }
