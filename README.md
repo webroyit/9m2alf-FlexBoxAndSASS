@@ -2,6 +2,12 @@ From Udemy - Advanced CSS and SASS by Jonas Schmedtmann
 --------------------------------------------------------
 Practicing on how to use flex box and sass.
 
+4-Overview
+--------------------------------------------------------
+- Use flex to display the three cafe images side by side
+- Use margin-right and margin-left auto to position the overview
+- Use keyframes to add custom animation on the button to make it expand when click
+
 3-Navigation
 --------------------------------------------------------
 - Use flex-direction to give space between nav list and legal text horizontally
