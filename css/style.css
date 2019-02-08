@@ -211,7 +211,12 @@ body {
     height: 1.75rem;
     fill: var(--color-primary); }
   .overview__location {
-    margin-left: auto; }
+    margin-left: auto;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center; }
+  .overview__icon-location {
+    margin-right: .5rem; }
 
 .btn-inline {
   border: none;

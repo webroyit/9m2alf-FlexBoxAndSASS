@@ -239,6 +239,15 @@
 
     &__location{
         margin-left: auto;
+        font-size: 1.2rem;
+
+        // center the icon and the button from top to bottom
+        display: flex;
+        align-items: center;
+    }
+
+    &__icon-location{
+        margin-right: .5rem;
     }
 
     &__rating{
