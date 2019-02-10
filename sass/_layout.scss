@@ -59,7 +59,9 @@
 }
 
 .description{
-    background-color: red;
+    background-color: white;
+    box-shadow: var(--shadow-light);
+    padding: 3rem;
     // take up 60% of the width
     flex: 0 0 60%;
     margin-right: 4.5rem;
