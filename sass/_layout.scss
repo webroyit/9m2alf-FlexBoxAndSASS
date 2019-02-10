@@ -50,3 +50,21 @@
     // This will make the cafe-view as big as possible
     flex: 1;
 }
+
+.detail{
+    display: flex;
+    padding: 4.5rem;
+}
+
+.description{
+    background-color: red;
+    // take up 60% of the width
+    flex: 0 0 60%;
+    margin-right: 4.5rem;
+}
+
+.user-reviews{
+    background-color: yellow;
+    // take up the remaining space
+    flex: 1;
+}

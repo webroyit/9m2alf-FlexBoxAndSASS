@@ -65,6 +65,19 @@ body {
   height: 80rem;
   flex: 1; }
 
+.detail {
+  display: flex;
+  padding: 4.5rem; }
+
+.description {
+  background-color: red;
+  flex: 0 0 60%;
+  margin-right: 4.5rem; }
+
+.user-reviews {
+  background-color: yellow;
+  flex: 1; }
+
 .logo {
   height: 3.25rem;
   margin-left: 2rem; }
