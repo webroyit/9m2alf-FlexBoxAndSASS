@@ -9,7 +9,8 @@
   --color-grey-dark-1: #333;
   --color-grey-dark-2: #777;
   --color-grey-dark-3: #999;
-  --shadow-dark: 0 2rem 6em rgba(0, 0, 0, .3); }
+  --shadow-dark: 0 2rem 6em rgba(0, 0, 0, .3);
+  --line: 1px solid var(--color-grey-light-2); }
 
 * {
   margin: 0;
@@ -45,7 +46,7 @@ body {
   font-size: 1.4rem;
   height: 7rem;
   background-color: white;
-  border-bottom: 1px solid var(--color-grey-light-2);
+  border-bottom: var(--line);
   display: flex;
   justify-content: space-between;
   align-items: center; }
@@ -67,7 +68,9 @@ body {
 
 .detail {
   display: flex;
-  padding: 4.5rem; }
+  padding: 4.5rem;
+  background-color: var(--color-grey-light-1);
+  border-bottom: var(--line); }
 
 .description {
   background-color: red;
@@ -209,7 +212,7 @@ body {
 .overview {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid var(--color-grey-light-2); }
+  border-bottom: var(--line); }
   .overview__heading {
     font-size: 2.25rem;
     font-weight: 300;
