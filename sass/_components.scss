@@ -328,4 +328,13 @@
     padding: 3rem 0;
     border-top: var(--line);
     border-bottom:  var(--line);
+
+    display: flex;
+    // make the text move to a new line if there is not enough space
+    flex-wrap: wrap;
+
+    &__item{
+        flex: 0 0 50%;
+        margin-bottom: .5rem;
+    }
 }
