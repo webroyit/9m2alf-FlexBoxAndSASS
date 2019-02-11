@@ -362,3 +362,22 @@
         mask-size: cover;
     }
 }
+
+.recommend{
+    font-size: 1.3rem;
+    color: var(--color-grey-dark-1);
+
+    &__count{
+
+    }
+
+    &__friend{
+
+    }
+    
+    &__photo{
+        height: 4rem;
+        width: 4rem;
+        border-radius: 50%;
+    }
+}
