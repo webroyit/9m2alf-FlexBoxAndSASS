@@ -401,6 +401,7 @@
     box-shadow: var(--shadow-light);
     padding: 3rem;
     margin-bottom: 3rem;
+    position: relative;
 
     &__text{
         margin-bottom: 2rem;
@@ -440,5 +441,18 @@
         color: var(--color-primary);
         font-size: 2.2rem;
         font-weight: 300;
+    }
+
+    // make quotation mark
+    &::before{
+        // using html entity, ISO number
+        content: "\201C";
+        position: absolute;
+        top: -2.75rem;
+        left: -1rem;
+        font-size: 20rem;
+        line-height: 1;
+        color: var(--color-grey-light-2);
+        font-family: sans-serif;
     }
 }
