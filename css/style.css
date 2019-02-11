@@ -327,9 +327,12 @@ body {
   box-shadow: var(--shadow-light);
   padding: 3rem;
   margin-bottom: 3rem;
-  position: relative; }
+  position: relative;
+  overflow: hidden; }
   .review__text {
-    margin-bottom: 2rem; }
+    margin-bottom: 2rem;
+    position: relative;
+    z-index: 5; }
   .review__user {
     display: flex;
     align-items: center; }
@@ -360,4 +363,5 @@ body {
     font-size: 20rem;
     line-height: 1;
     color: var(--color-grey-light-2);
-    font-family: sans-serif; }
+    font-family: sans-serif;
+    z-index: 1; }

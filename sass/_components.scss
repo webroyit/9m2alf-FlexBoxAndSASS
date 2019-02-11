@@ -402,9 +402,14 @@
     padding: 3rem;
     margin-bottom: 3rem;
     position: relative;
+    // remove some part of the quotation mark that was outside of the box
+    overflow: hidden;
 
     &__text{
         margin-bottom: 2rem;
+        position: relative;
+        // z-index only work if you set the position
+        z-index: 5;
     }
 
     &__user{
@@ -454,5 +459,6 @@
         line-height: 1;
         color: var(--color-grey-light-2);
         font-family: sans-serif;
+        z-index: 1;
     }
 }
