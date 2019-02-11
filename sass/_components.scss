@@ -343,12 +343,22 @@
         // must set content to something to make icon appear
         content: "";
         display: inline-block;
-        height: 2rem;
-        width: 2rem;
+        height: 1.2rem;
+        width: 1.2rem;
         margin-right: .5rem;
 
-        // for older browers
-        background-image: url(../img/gift.svg);
-        background-size: cover;
+        // for older browers, backround-image cannot change color
+        //background-image: url(../img/gift.svg);
+        //background-size: cover;
+
+        // using mask to set icon as mask in order to change it color
+        background-color: var(--color-primary);
+        -webkit-mask-image: url(../img/gift.svg);
+
+        // same as background-size: cover
+        -webkit-mask-size: cover;
+
+        mask-image: url(../img/gift.svg);
+        mask-size: cover;
     }
 }

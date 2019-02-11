@@ -298,8 +298,11 @@ body {
   .list__item::before {
     content: "";
     display: inline-block;
-    height: 2rem;
-    width: 2rem;
+    height: 1rem;
+    width: 1rem;
     margin-right: .5rem;
-    background-image: url(../img/gift.svg);
-    background-size: cover; }
+    background-color: var(--color-primary);
+    -webkit-mask-image: url(../img/gift.svg);
+    -webkit-mask-size: cover;
+    mask-image: url(../img/gift.svg);
+    mask-size: cover; }
