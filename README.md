@@ -2,6 +2,14 @@ From Udemy - Advanced CSS and SASS by Jonas Schmedtmann
 --------------------------------------------------------
 Practicing on how to use flex box and sass.
 
+6-User Review
+--------------------------------------------------------
+- Add user review content
+- Use html entity to add quotation mark and style it
+- Use z-index to make the quotation mark appear behind the text
+- Add a button with animation
+- Use flex to center the button
+
 5-Description
 --------------------------------------------------------
 - Use flex to set up the layout of the description
@@ -9,7 +17,6 @@ Practicing on how to use flex box and sass.
 - Use mask to change the color of the SVG icon
 - Make the image overlay to other image
 - Use margin-right:auto to move the images to the right side
-
 
 4-Overview
 --------------------------------------------------------
