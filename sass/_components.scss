@@ -498,9 +498,15 @@
     // hide the second text because it is outside of the button
     overflow: hidden;
 
+    & > * {
+        display: inline-block;
+        height: 100%;
+        width: 100%;
+        transition: all .2s;
+    }
+
     // first text
     &__visible{
-        display: inline-block;
         padding: 2rem 7.5rem;
     }
     
@@ -509,9 +515,17 @@
         display: inline-block;
         position: absolute;
         padding: 2rem 0;
-        height: 100%;
-        width: 100%;
         left: 0;
         top: -100%;
+    }
+
+    // move the first text down
+    &:hover &__visible{
+        transform: translateY(100%);
+    }
+
+    // show the second text
+    &:hover &__invisible{
+        top: 0;
     }
 }
