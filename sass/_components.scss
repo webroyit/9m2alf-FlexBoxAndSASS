@@ -494,12 +494,24 @@
     border: none;
     background-image: linear-gradient(to top, var(--color-primary-light), var(--color-primary-dark));
     color: white;
+    position: relative;
+    // hide the second text because it is outside of the button
+    overflow: hidden;
 
+    // first text
     &__visible{
-
+        display: inline-block;
+        padding: 2rem 7.5rem;
     }
-
+    
+    // put the second text above the first text
     &__invisible{
-
+        display: inline-block;
+        position: absolute;
+        padding: 2rem 0;
+        height: 100%;
+        width: 100%;
+        left: 0;
+        top: -100%;
     }
 }
