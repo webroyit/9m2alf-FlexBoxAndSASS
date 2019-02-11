@@ -365,10 +365,12 @@
 
 .recommend{
     font-size: 1.3rem;
-    color: var(--color-grey-dark-1);
+    color: var(--color-grey-dark-3);
+
+    // make the text and the four images side by side
+    display: flex;
 
     &__count{
-
     }
 
     &__friend{
@@ -376,8 +378,15 @@
     }
     
     &__photo{
+        // add the border size to the width and height of the image
+        box-sizing: content-box;
         height: 4rem;
         width: 4rem;
         border-radius: 50%;
+        border: 3px solid white;
+
+        &:not(:last-child){
+            margin-right: -1.2rem;
+        }
     }
 }

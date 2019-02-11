@@ -309,8 +309,13 @@ body {
 
 .recommend {
   font-size: 1.3rem;
-  color: var(--color-grey-dark-1); }
+  color: var(--color-grey-dark-3);
+  display: flex; }
   .recommend__photo {
+    box-sizing: content-box;
     height: 4rem;
     width: 4rem;
-    border-radius: 50%; }
+    border-radius: 50%;
+    border: 3px solid white; }
+    .recommend__photo:not(:last-child) {
+      margin-right: -1.2rem; }
