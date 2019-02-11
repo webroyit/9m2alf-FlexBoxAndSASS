@@ -369,8 +369,12 @@
 
     // make the text and the four images side by side
     display: flex;
+    // center the text from top to bottom
+    align-items: center;
 
     &__count{
+        // move the image to the right side
+        margin-right: auto;
     }
 
     &__friend{
@@ -385,6 +389,7 @@
         border-radius: 50%;
         border: 3px solid white;
 
+        // make the image overlay
         &:not(:last-child){
             margin-right: -1.2rem;
         }
