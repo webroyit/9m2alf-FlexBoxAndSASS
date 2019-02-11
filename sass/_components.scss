@@ -337,4 +337,18 @@
         flex: 0 0 50%;
         margin-bottom: .5rem;
     }
+
+    // add icon to list
+    &__item::before{
+        // must set content to something to make icon appear
+        content: "";
+        display: inline-block;
+        height: 2rem;
+        width: 2rem;
+        margin-right: .5rem;
+
+        // for older browers
+        background-image: url(../img/gift.svg);
+        background-size: cover;
+    }
 }

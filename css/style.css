@@ -295,3 +295,11 @@ body {
   .list__item {
     flex: 0 0 50%;
     margin-bottom: .5rem; }
+  .list__item::before {
+    content: "";
+    display: inline-block;
+    height: 2rem;
+    width: 2rem;
+    margin-right: .5rem;
+    background-image: url(../img/gift.svg);
+    background-size: cover; }
