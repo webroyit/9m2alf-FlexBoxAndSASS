@@ -289,8 +289,19 @@
     cursor: pointer;
     transition: all .2s;
 
+    & span{
+        margin-left: 3px;
+        // add animation
+        transition: margin-left .2s;
+    }
+
     &:hover{
         color: var(--color-grey-dark-1);
+
+        // move the arror
+        span{
+            margin-left: 8px;
+        }
     }
 
     &:focus{
