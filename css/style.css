@@ -81,7 +81,6 @@ body {
   margin-right: 4.5rem; }
 
 .user-reviews {
-  background-color: yellow;
   flex: 1; }
 
 .logo {
@@ -322,3 +321,13 @@ body {
     border: 3px solid white; }
     .recommend__photo:not(:last-child) {
       margin-right: -1.2rem; }
+
+.review {
+  background-color: white;
+  box-shadow: var(--shadow-light);
+  padding: 3rem;
+  margin-bottom: 3rem; }
+  .review__photo {
+    height: 4.5rem;
+    width: 4.5rem;
+    border-radius: 50%; }
