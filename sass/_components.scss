@@ -485,3 +485,21 @@
         margin-bottom: 2rem;
     }
 }
+
+.btn{
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    border-radius: 100px;
+    border: none;
+    background-image: linear-gradient(to top, var(--color-primary-light), var(--color-primary-dark));
+    color: white;
+
+    &__visible{
+
+    }
+
+    &__invisible{
+
+    }
+}
