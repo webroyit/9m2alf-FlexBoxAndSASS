@@ -2,6 +2,15 @@ From Udemy - Advanced CSS and SASS by Jonas Schmedtmann
 --------------------------------------------------------
 Practicing on how to use flex box and sass.
 
+5-Description
+--------------------------------------------------------
+- Use flex to set up the layout of the description
+- Use SVG icon in css to add icon to the list
+- Use mask to change the color of the SVG icon
+- Make the image overlay to other image
+- Use margin-right:auto to move the images to the right side
+
+
 4-Overview
 --------------------------------------------------------
 - Use flex to display the three cafe images side by side
