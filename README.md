@@ -2,6 +2,14 @@ From Udemy - Advanced CSS and SASS by Jonas Schmedtmann
 --------------------------------------------------------
 Practicing on how to use flex box and sass.
 
+7-CTA
+--------------------------------------------------------
+- Add span and button
+- Style span and button
+- Show the second span hidden above the first span
+- Show the second span instead of the first span when hover
+- Add animation to the button
+
 6-User Review
 --------------------------------------------------------
 - Add user review content
