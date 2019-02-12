@@ -14,6 +14,13 @@
     // center the search icon in main axis
     justify-content: center;
 
+    // put the search bar last
+    @media only screen and (max-width: $bp-smallest){
+        order: 1;
+        // make the search bar big
+        flex: 0 0 100%;
+    }
+
     &__input{
         // input does not inherit the global font by default
         font-family: inherit;
