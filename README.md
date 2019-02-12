@@ -1,6 +1,6 @@
 From Udemy - Advanced CSS and SASS by Jonas Schmedtmann
 --------------------------------------------------------
-Practicing on how to use flex box and sass.
+Practicing on how to use flex box and sass. This is a fictional website where they have review about cafe.
 
 8-Media Queries
 --------------------------------------------------------
