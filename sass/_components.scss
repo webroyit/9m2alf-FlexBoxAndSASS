@@ -497,6 +497,7 @@
     position: relative;
     // hide the second text because it is outside of the button
     overflow: hidden;
+    cursor: pointer;
 
     & > * {
         display: inline-block;
@@ -519,6 +520,11 @@
         top: -100%;
     }
 
+    // change color
+    &:hover{
+        background-image: linear-gradient(to bottom, var(--color-primary-light), var(--color-primary-dark));
+    }
+
     // move the first text down
     &:hover &__visible{
         transform: translateY(100%);
@@ -527,5 +533,10 @@
     // show the second text
     &:hover &__invisible{
         top: 0;
+    }
+
+    &:focus{
+        outline: none;
+        animation: pulsate 1s infinite;
     }
 }
