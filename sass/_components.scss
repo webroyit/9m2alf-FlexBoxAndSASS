@@ -129,6 +129,11 @@
     list-style: none;
     margin-top: 3.5rem;
 
+    // display the nav link side by side
+    @media only screen and (max-width: $bp-medium){
+        display: flex;
+    }
+
     &__item{
         position: relative;
 
@@ -402,7 +407,7 @@
 
         // make the image overlay
         &:not(:last-child){
-            margin-right: -1.2rem;
+            margin-right: -2rem;
         }
     }
 }
