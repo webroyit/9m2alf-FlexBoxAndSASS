@@ -10,6 +10,8 @@
     // remove the top and bottom background color
     @media only screen and (max-width: $bp-largest){
         margin: 0;
+        max-width: 100%;
+        width: 100%;
     }
 }
 

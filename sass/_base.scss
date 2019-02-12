@@ -25,7 +25,8 @@
 }
 
 // breakpoint variables
-$bp-largest: 75em;
+$bp-largest: 75em;      // 1200px
+$bp-large: 68.75em;     // 1100px
 
 *{
     margin: 0;
@@ -41,6 +42,10 @@ $bp-largest: 75em;
 html{
     box-sizing: border-box;
     font-size: 62.5%;
+
+    @media only screen and (max-width: $bp-large){
+        font-size: 50%;
+    }
 }
 
 body{
