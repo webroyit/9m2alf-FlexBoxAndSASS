@@ -2,6 +2,16 @@ From Udemy - Advanced CSS and SASS by Jonas Schmedtmann
 --------------------------------------------------------
 Practicing on how to use flex box and sass.
 
+8-Media Queries
+--------------------------------------------------------
+- Create a variable for breakpoint
+- Display the sidebar on top of the content
+- Hide the legal text
+- Display the items in content vertically
+- Move the icon above the link
+- Move the search bar to a new line
+- Add backgorund-color to search bar to make it look like it take up all the width space
+
 7-CTA
 --------------------------------------------------------
 - Add span and button
