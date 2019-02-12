@@ -1,5 +1,6 @@
 // this is global variables
 // css variables not need pre-processor
+// using css varibales on media query does not work 
 :root{
     // color
     --color-primary: #FFA500;
@@ -21,7 +22,10 @@
 
     // border line
     --line: 1px solid var(--color-grey-light-2);
-    }
+}
+
+// breakpoint variables
+$bp-largest: 75em;
 
 *{
     margin: 0;
