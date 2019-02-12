@@ -424,18 +424,23 @@
         margin-right: .5rem;
 
         // for older browers, backround-image cannot change color
-        //background-image: url(../img/gift.svg);
-        //background-size: cover;
+        background-image: url(../img/gift.svg);
+        background-size: cover;
 
-        // using mask to set icon as mask in order to change it color
-        background-color: var(--color-primary);
-        -webkit-mask-image: url(../img/gift.svg);
+        // feature query
+        @supports(-webkit-mask-image: url()) or (mask-image: url()){
+            // using mask to set icon as mask in order to change it color
+            background-color: var(--color-primary);
+            -webkit-mask-image: url(../img/gift.svg);
 
-        // same as background-size: cover
-        -webkit-mask-size: cover;
+            // same as background-size: cover
+            -webkit-mask-size: cover;
 
-        mask-image: url(../img/gift.svg);
-        mask-size: cover;
+            mask-image: url(../img/gift.svg);
+            mask-size: cover;
+
+            background-image: none;
+        }
     }
 }
 

@@ -384,11 +384,16 @@ body {
     height: 1.2rem;
     width: 1.2rem;
     margin-right: .5rem;
-    background-color: var(--color-primary);
-    -webkit-mask-image: url(../img/gift.svg);
-    -webkit-mask-size: cover;
-    mask-image: url(../img/gift.svg);
-    mask-size: cover; }
+    background-image: url(../img/gift.svg);
+    background-size: cover; }
+    @supports (-webkit-mask-image: url()) or (mask-image: url()) {
+      .list__item::before {
+        background-color: var(--color-primary);
+        -webkit-mask-image: url(../img/gift.svg);
+        -webkit-mask-size: cover;
+        mask-image: url(../img/gift.svg);
+        mask-size: cover;
+        background-image: none; } }
 
 .recommend {
   font-size: 1.3rem;
