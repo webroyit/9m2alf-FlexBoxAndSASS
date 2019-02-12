@@ -195,6 +195,7 @@
         display: flex;
         align-items: center;
 
+        // center the nav links
         @media only screen and (max-width: $bp-medium){
             justify-content: center;
             padding: 2rem;
@@ -443,6 +444,11 @@
     // remove some part of the quotation mark that was outside of the box
     overflow: hidden;
 
+    @media only screen and (max-width: $bp-medium){
+        padding: 2rem;
+        margin-bottom: 2.5rem;
+    }
+
     &__text{
         margin-bottom: 2rem;
         position: relative;
@@ -504,6 +510,10 @@
 .cta{
     padding: 3.5rem 0;
     text-align: center;
+
+    @media only screen and (max-width: $bp-medium){
+        padding: 2.5rem 0;
+    }
 
     &__book-now{
         font-size: 1.5rem;
