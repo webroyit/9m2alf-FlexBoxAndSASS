@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/style.min.css">
+
+        <title>RWI Cafe Finder &dash; Find your cafe to study</title>
+    </head>
+    <body>
+        <div class="container">
+            <header class="header">
+                <img src="img/logo.png" alt="Logo" class="logo">
+                
+                <form action="#" class="search">
+                    <input type="text" class="search__input" placeholder="Search...">
+                    <button class="search__button">
+                        <svg class="search__icon">
+                            <!-- This only works on the web server -->
+                            <use xlink:href="img/sprite.svg#icon-search"></use>
+                        </svg>
+                    </button>
+                </form>
+
+                <nav class="user-nav">
+                    <div class="user-nav__icon-box">
+                        <svg class="user-nav__icon">
+                            <use xlink:href="img/sprite.svg#icon-bookmarks"></use>
+                        </svg>
+                        <span class="user-nav__notification">10</span>
+                    </div>
+                    <div class="user-nav__icon-box">
+                        <svg class="user-nav__icon">
+                            <use xlink:href="img/sprite.svg#icon-mail3"></use>
+                        </svg>
+                        <span class="user-nav__notification">15</span>
+                    </div>
+                    <div class="user-nav__user">
+                        <img src="img/user-1.jpe" alt="User" class="user-nav__user-photo">
+                        <span class="user-nav__user-name">Roy</span>
+                    </div>
+                </nav>
+            </header>
+            <div class="content">
+                <nav class="sidebar">
+                    <ul class="side-nav">
+                        <li class="side-nav__item">
+                            <a href="#" class="side-nav__link">
+                                <svg class="side-nav__icon">
+                                    <use xlink:href="img/sprite.svg#icon-connection"></use>
+                                </svg>
+                                <span>Wifi</span>
+                            </a>
+                        </li>
+                        <li class="side-nav__item side-nav__item--active">
+                            <a href="#" class="side-nav__link">
+                                <svg class="side-nav__icon">
+                                    <use xlink:href="img/sprite.svg#icon-mug"></use>
+                                </svg>
+                                <span>Coffee</span>
+                            </a>
+                        </li>
+                        <li class="side-nav__item">
+                            <a href="#" class="side-nav__link">
+                                <svg class="side-nav__icon">
+                                    <use xlink:href="img/sprite.svg#icon-spoon-knife"></use>
+                                </svg>
+                                <span>Food</span>
+                            </a>
+                        </li>
+                        <li class="side-nav__item">
+                            <a href="#" class="side-nav__link">
+                                <svg class="side-nav__icon">
+                                    <use xlink:href="img/sprite.svg#icon-clipboard"></use>
+                                </svg>
+                                <span>Hours</span>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <div class="legal">
+                        This design is based on Jonas Schmedtmann online course Advanced CSS and SASS &copy; 2019 RWI Cafe Finder
+                    </div>
+                </nav>
+
+                <main class="cafe-view">
+                    <div class="gallery">
+                        <!-- figure for caption -->
+                        <figure class="gallery__item">
+                            <img src="img/cafe-1.jpe" alt="Cafe 1" class="gallery__photo">
+                        </figure>
+                        <figure class="gallery__item">
+                            <img src="img/cafe-2.jpe" alt="Cafe 2" class="gallery__photo">
+                        </figure>
+                        <figure class="gallery__item">
+                            <img src="img/cafe-3.jpe" alt="Cafe 3" class="gallery__photo">
+                        </figure>
+                    </div>
+
+                    <div class="overview">
+                        <h1 class="overview__heading">
+                            RWI Cafe
+                        </h1>
+                        <div class="overview__stars">
+                            <svg class="overview__icon-star">
+                                <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                            </svg>
+                            <svg class="overview__icon-star">
+                                <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                            </svg>
+                            <svg class="overview__icon-star">
+                                <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                            </svg>
+                            <svg class="overview__icon-star">
+                                <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                            </svg>
+                            <svg class="overview__icon-star">
+                                <use xlink:href="img/sprite.svg#icon-star-full"></use>
+                            </svg>
+                        </div>
+
+                        <div class="overview__location">
+                            <svg class="overview__icon-location">
+                                <use xlink:href="img/sprite.svg#icon-map"></use>
+                            </svg>
+                            <button class="btn-inline">Cafe Country, Cafe State</button>
+                        </div>
+
+                        <div class="overview__rating">
+                            <div class="overview__rating-average">9.6</div>
+                            <div class="overview__rating-count">354 Votes</div>
+                        </div>
+                    </div>
+
+                    <div class="detail">
+                        <div class="description">
+                            <p class="paragraph">
+                                RWI Cafe has 2 floors.  Second floor has many windows.  We serve diffent types of coffees and snacks.  They are well made and taste well
+                            </p>
+                            <p class="paragraph">
+                                We have fast Wifi and new tables and chair that are soft.  We are also pet friendly.  We are open everyday.
+                            </p>
+                            <ul class="list">
+                                <li class="list__item">Clean Bathroom</li>
+                                <li class="list__item">Good Views</li>
+                                <li class="list__item">Tree around</li>
+                                <li class="list__item">Soft Chair</li>
+                                <li class="list__item">Free Water</li>
+                                <li class="list__item">Fast Wifi</li>
+                                <li class="list__item">Good Food</li>
+                                <li class="list__item">Well made Coffee</li>
+                            </ul>
+                            <div class="recommend">
+                                <p class="recommend__count">200+ people recommend this cafe</p>
+                                <img src="img/user-2.jpe" alt="Person" class="recommend__photo">
+                                <img src="img/user-3.jpe" alt="Person" class="recommend__photo">
+                                <img src="img/user-5.jpe" alt="Person" class="recommend__photo">
+                                <img src="img/user-4.jpe" alt="Person" class="recommend__photo">
+                            </div>
+                        </div>
+
+                        <figure class="user-reviews">
+
+                            <!-- figure are good for text and description -->
+                            <figure class="review">
+                                <blockquote class="review__text">
+                                    This is a great cafe.  Coffee are well made.  It is very warm during winter which would be better if they lower the temperature.
+                                </blockquote>
+                                <figcaption class="review__user">
+                                    <img src="img/user-6.jpe" alt="Person" class="review__photo">
+                                    <div class="review__user-box">
+                                        <p class="review__user-name">Bob Test</p>
+                                        <p class="review__user-date">Feb 11, 2019</p>
+                                    </div>
+                                    <div class="review__rating">8.5</div>
+                                </figcaption>
+                            </figure>
+
+                            <figure class="review">
+                                <blockquote class="review__text">
+                                    I love this cafe.  I can bring my dog to this cafe and he love it.  The staff are very friendly.  
+                                </blockquote>
+                                <figcaption class="review__user">
+                                    <img src="img/user-7.jpe" alt="Person" class="review__photo">
+                                    <div class="review__user-box">
+                                        <p class="review__user-name">Jill Ligth</p>
+                                        <p class="review__user-date">April 06, 2018</p>
+                                    </div>
+                                    <div class="review__rating">9.1</div>
+                                </figcaption>
+                            </figure>
+                            
+                            <!-- Use span to add animation -->
+                            <button class="btn-inline">Show All <span>&rarr;</span></button>
+
+                        </figure>
+
+                    </div>
+
+                    <div class="cta">
+                        <h2 class="cta__book-now">
+                            You can reserve a table at this cafe to hang out or study!
+                        </h2>
+                        <button class="btn">
+                            <span class="btn__visible">Reserve Now</span>
+                            <span class="btn__invisible">Only 5 Tables left</span>
+                    </div>
+
+                </main>
+            </div>
+        </div>
+    </body>
+</html>
